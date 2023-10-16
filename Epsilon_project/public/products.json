@@ -1,0 +1,780 @@
+[
+  {
+      "brand": "philips",
+      "price_range": "20000-50000",
+      "products": [
+        {
+          "product_name": "PhilipsPro SoundMixer A",
+          "price": 35000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://images.pexels.com/photos/214487/pexels-photo-214487.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+          "product_name": "PhilipsPro BassMaster B",
+          "price": 28000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://m.media-amazon.com/images/I/71p9CG-9LEL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "product_name": "PhilipsPro SurroundWave C",
+          "price": 45000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://images.philips.com/is/image/PhilipsConsumer/HTD5570_94-IMS-en_IN?$jpglarge$&wid=960"
+        }
+      ]
+  },
+  {
+      "brand": "philips",
+      "price_range": "Above 50000",
+      "products": [
+        {
+          "product_name": "PhilipsPro SoundMixer D",
+          "price": 55000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://www.luluhypermarket.in/medias/1200Wx1200H-null?context=bWFzdGVyfGltYWdlc3wxMjM1MjZ8aW1hZ2UvanBlZ3xhRGsyTDJnM05TODVNamt4TkRnek1EVTBNVEV3THpFeU1EQlhlREV5TURCSVgyNTFiR3d8YzUxZjg1M2I0NDBmOTJiM2IyZWY2ODVmMDc0ODI5ZTE5NmI0MGIyOTNjZjFiNDMyMmQ3YTNiZmVhMDNiMjZmZA"
+        },
+        {
+          "product_name": "PhilipsPro BassMaster E",
+          "price": 68000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://images.philips.com/is/image/PhilipsConsumer/SPA8000B_94-IMS-en_IN?$jpglarge$&wid=1250"
+        },
+        {
+          "product_name": "PhilipsPro SurroundWave F",
+          "price": 95000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR37xZHfSBAfyP_NAT7Pi4GPINcMW9EoxBUXw&usqp=CAU"
+        }
+      ]
+  },
+  {
+      "brand": "sony",
+      "price_range": "20000-50000",
+      "products": [
+        {
+          "product_name": "Sony SoundMixer A",
+          "price": 29000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1665442699/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/224037_0_idsddw.png?tr=w-600"
+        },
+        {
+          "product_name": "Sony BassMaster B",
+          "price": 36000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://m.media-amazon.com/images/I/51Al-UaY6LL.jpg"
+        },
+        {
+          "product_name": "Sony SurroundWave C",
+          "price": 45000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThD_eg4kW2aRNFqEJmeXH5I6_YqBL0BWDzQw&usqp=CAU"
+        }
+      ]
+  },
+  {
+      "brand": "sony",
+      "price_range": "Above 50000",
+      "products": [
+        {
+          "product_name": "Sony SoundMixer D",
+          "price": 59000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApjN_oMM4F-TDIR43vi7ZMaEnEE-w70MAOQ&usqp=CAU"
+        },
+        {
+          "product_name": "Sony BassMaster E",
+          "price": 66000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9CE27q5BNXsa0dcSuCEuSY9vZiL53HO1g9A&usqp=CAU"
+        },
+        {
+          "product_name": "Sony SurroundWave F",
+          "price": 75000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHPMeK-_0Hh_GgRzg6_dlx73bhYaq5icQFw&usqp=CAU"
+        }
+      ]
+  },
+  {
+      "brand": "marshal",
+      "price_range": "20000-50000",
+      "products": [
+        {
+          "product_name": "Marshal SoundMixer A",
+          "price": 49000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcHjuAf1F32erUWz_mXRcLGHpMTHooj6LNg&usqp=CAU"
+        },
+        {
+          "product_name": "Marshal BassMaster B",
+          "price": 36000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTs2VIt8Pj7nHCf2qunZpec5CNBLdtc8C-_w&usqp=CAU"
+        },
+        {
+          "product_name": "Marshal SurroundWave C",
+          "price": 45000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchBOsKk7CZFBJkwfbtEPVdIVzURBfVejOj6wz2_vARQrajsZ7e_pBfgf_prTeImMmLt0&usqp=CAU"
+        }
+      ]
+  },
+  {
+      "brand": "marshal",
+      "price_range": "Above 50000",
+      "products": [
+        {
+          "product_name": "Marshal SoundMixer D",
+          "price": 99000,
+          "specification": ["8-Channel Digital Mixer", "Built-in Effects", "Bluetooth Connectivity"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHpmaT7oVrWmZfA6RGKx8iGG4XDULsWSuMypQ37zcl9CRb8VcJN0WIoBUsxP_9hv33LZw&usqp=CAU"
+        },
+        {
+          "product_name": "Marshal BassMaster E",
+          "price": 76000,
+          "specification": ["Subwoofer System", "Powerful Bass Output", "Wireless Remote"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_MxHLF_QiF_byIde7TIrttAtktiJMlFqeQ&usqp=CAU"
+        },
+        {
+          "product_name": "Marshal SurroundWave F",
+          "price": 63000,
+          "specification": ["5.1 Home Theater System", "Dolby Atmos Support", "Wireless Rear Speakers"],
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR_iOkup7N4RB0spKFcbq5W6GR01AbSiNAIQ&usqp=CAU"
+        }
+      ]
+  },
+
+
+      {
+          "brand": "canon",
+          "price_range": "10000-25000",
+          "products": [
+            {
+              "product_name": "Canon EOS Pro A",
+              "price": 15000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc0yFzpY8esE5ZfQmdl0NbrSbTUrRrxKnsng&usqp=CAU"
+            },
+            {
+              "product_name": "Canon PowerShot B",
+              "price": 19000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjv8ByvHgM9DXkDBlNcV8sSaZBi4_FMmrDnw&usqp=CAU"
+            },
+            {
+              "product_name": "Canon CinemaVision C",
+              "price": 20000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb_wONp80rGN8W7Vm84zXB47k92O1KZzmflA&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "canon",
+          "price_range": "25000-50000",
+          "products": [
+            {
+              "product_name": "Canon EOS Pro D",
+              "price": 35000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5ch8xjZe0iu6E_zB0RUGEIWlCxZAxeOMDg&usqp=CAU"
+            },
+            {
+              "product_name": "Canon PowerShot E",
+              "price": 49000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXfQGHXS5KiSI6pEs_YcUT0xnoxotRUd3lA&usqp=CAU"
+            },
+            {
+              "product_name": "Canon CinemaVision F",
+              "price": 51000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3YjCs4tz21VSVLUdkyGcXfHAU8NJO_2Rd6TByjo55YUzeYsYvLq3UCYWVKB1mRo6KSJw&usqp=CAU"
+            }
+      
+          ]
+      },
+       {
+          "brand": "canon",
+          "price_range": "Above 50000",
+          "products": [
+            {
+              "product_name": "Canon EOS Pro G",
+              "price": 55000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6RFi5hcRTo7G5YPxjFIYjnWZBwICfXkpmQ&usqp=CAU"
+            },
+            {
+              "product_name": "Canon PowerShot H",
+              "price": 69000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfGrYISvk5kJfnlDrkrNLT0j6eN8u7ziSXQ&usqp=CAU"
+            },
+            {
+              "product_name": "Canon CinemaVision I",
+              "price": 80000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdcYcVaBnxL3ytEBL9wwQaUiyl78jEdCmGQ&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "kodak",
+          "price_range": "10000-25000",
+          "products": [
+            {
+              "product_name": "Kodak EOS Pro A",
+              "price": 15000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsWQyfXS5XrvOBZma0n0G0X-LPO0pORyagKA&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak PowerShot B",
+              "price": 19000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScY2rVmUlDAKY-iDVeSz99zG1dHPFLyMFmwA&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak CinemaVision C",
+              "price": 20000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjs45f8UfYBgnHW-jnEDlrCFhrb5N0acP-Uw&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "kodak",
+          "price_range": "25000-50000",
+          "products": [
+            {
+              "product_name": "Kodak EOS Pro D",
+              "price": 35000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8L0m1R2omyd-XiYCfW1v9mOSS97Ur8b7Sw&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak PowerShot E",
+              "price": 49000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4n31rMj0APAWIg7jFz2hDLy8u6-oiGWkxA&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak CinemaVision F",
+              "price": 38000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrig-P0lu0ZJbo61IISfEVgpcS6dgKkHeBRw&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "kodak",
+          "price_range": "Above 50000",
+          "products": [
+            {
+              "product_name": "Kodak EOS Pro G",
+              "price": 55000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR89WxraXRQZ9gTigrGprhdzLO5DaUdjqo705CWGkNtpJGcB2zcCc1axNhGYrZhIE2Zw&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak PowerShot H",
+              "price": 69000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsdPjirxpfrFVYgIuXdJpAa9Sbx8oOgUPhrQ&usqp=CAU"
+            },
+            {
+              "product_name": "Kodak CinemaVision I",
+              "price": 78000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOJmxgDua_4H0yGepUdcUqqHR7WNLDU1rBg&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "sony",
+          "price_range": "10000-25000",
+          "products": [
+            {
+              "product_name": "Sony EOS Pro A",
+              "price": 15000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoZahZo0pF8QjE484Te9tlZj1HOI9tFJWVQ&usqp=CAU"
+            },
+            {
+              "product_name": "Sony PowerShot B",
+              "price": 20000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUoUG9y9szXiJZnVOF8eU6OdQTCterVkLiw&usqp=CAU"
+            },
+            {
+              "product_name": "Sony CinemaVision C",
+              "price": 21000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7wBFKw-RdnJQ3131ja_aljQvlJQ3ec9GKw&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "sony",
+          "price_range": "25000-50000",
+          "products": [
+            {
+              "product_name": "Sony EOS Pro D",
+              "price": 35000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThe-vm5Pp8ePOxFRpd5dWtCFcpsfF5t77wNeXOnxLjrXDDolqqZsdTIFS438kSuFPqngU&usqp=CAU"
+            },
+            {
+              "product_name": "Sony PowerShot E",
+              "price": 30000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDwwC3C5L9E2VX-Nz5cDyHnI8l4WDhdTTEA&usqp=CAU"
+            },
+            {
+              "product_name": "Sony CinemaVision F",
+              "price": 41000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLnphfhJ13SuGMrMTegQL-vuotz_AGBL790mAYEgj6vMokGTS-_2a2rB0cA6L8tObyK9Q&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+          "brand": "sony",
+          "price_range": "Above 50000",
+          "products": [
+            {
+              "product_name": "Sony EOS Pro G",
+              "price": 55000,
+              "specification": ["24.2MP Full Frame Sensor", "4K Video", "Dual Pixel Autofocus"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4Tu-ypodi5PbywzhfwPOzy0FjcVkgLYmfA&usqp=CAU"
+            },
+            {
+              "product_name": "Sony PowerShot H",
+              "price": 98000,
+              "specification": ["20.1MP Compact Camera", "4x Optical Zoom", "Touchscreen"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUPgqgeaL7o51-Xie8w8mRLkhcHPrzfe-xw&usqp=CAU"
+            },
+            {
+              "product_name": "Sony CinemaVision I",
+              "price": 71000,
+              "specification": ["18.7MP Cinema Camera", "6K RAW Recording", "Cinema Lenses Compatible"],
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfpG73idqKLPzwji1KGGtmqLOfUn1OTm9Scg&usqp=CAU"
+            }
+      
+          ]
+      },
+      {
+        "brand": "samsung",
+        "price_range": "0-25000",
+        "products": [
+          {
+            "product_name": "Samsung HD",
+            "price": 15000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFRbpPVtWNN9XRJQMMJbFryHAL8mZiPUMv-B5o9bU0iHkYvYob7Uh4kkiwDhUe46qtM_s&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung FHD",
+            "price": 22000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nJZtsuT33g-Csxx-ec29UjsX3MxBnPmRXw&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung Ultra",
+            "price": 24000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqyKcfRdQEGQkiSPt04Br9XXEBwqca_z-_bQ&usqp=CAU"
+          }
+    
+        ]
+      },
+      {
+        "brand": "samsung",
+        "price_range": "25000-50000",
+        "products": [
+          {
+            "product_name": "Samsung HD",
+            "price": 35000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9S8dHzY_wVj4GE84e-_jyC6nN1OLZRq8G6Q&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung FHD",
+            "price": 36000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4vkrpr-WB6RrXjPUZEqEn6GFVUj6hKrDtQ&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung Ultra",
+            "price": 39000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEvGT5r5gV7wFkY_OitV0dvNrAoP0chQjRaA&usqp=CAU"
+          }
+    
+        ]
+      },
+      
+       {
+        "brand": "samsung",
+        "price_range": "50000-80000",
+        "products": [
+          {
+            "product_name": "Samsung HD",
+            "price": 55000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2AJMTbWD3iP4ba6HT45WqX4-TPTpLNd0zyA&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung FHD",
+            "price": 66000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZ00UZtNzwRBKRTD-0I9E0otGI-UXPBFCgmir9o8c4ig4hD6Ij7rzTLg3W5xV180nUmk&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung Ultra",
+            "price": 79000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ75d65aNg3jobzjcAZw8aUAoA7ptRT5yDfTQ&usqp=CAU"
+          }
+    
+        ]
+      },
+      
+         {
+        "brand": "samsung",
+        "price_range": "Above 80000",
+        "products": [
+          {
+            "product_name": "Samsung HD",
+            "price": 85000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_eI0POPg_mSsdCjSSv4EJ2oB5rEgucQyGVA&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung FHD",
+            "price": 96000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2XGYeVx5bBLP_jWNk60zflVO-xPmt-4sqw&usqp=CAU"
+          },
+          {
+            "product_name": "Samsung Ultra",
+            "price": 89000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM_qS0cptEUTNM4BwovbUtYTGlVMljENtww&usqp=CAU"
+          }
+    
+        ]
+      },
+           
+    
+      {
+        "brand": "micromax",
+        "price_range": "0-25000",
+        "products": [
+          {
+            "product_name": "Micromax HD",
+            "price": 15000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTigwgb_psaXSAyvPkxocV0NPnle1_Ag3RwMw&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax FHD",
+            "price": 22000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFJJzk5ZlHV1WHfrvvqVfsWjpsLLHRX4LNA&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax Ultra",
+            "price": 24000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT20tL4Sr1cTUwxreQ41L-muPopTgRXCsgfzg&usqp=CAU"
+          }
+    
+        ]
+      },
+          {
+        "brand": "micromax",
+        "price_range": "25000-50000",
+        "products": [
+          {
+            "product_name": "Micromax HD",
+            "price": 35000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwYue4SaVr_ohcb1BfWo9cvcXiy2KRt6pxog&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax FHD",
+            "price": 36000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwLZd5VKKLykUzsKNoqKYhnoetLWl-5HDagA&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax Ultra",
+            "price": 39000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcFYwtqaq7SKHG-op7_6wEIW7opZtPhqBDTg&usqp=CAU"
+          }
+    
+        ]
+      },
+       {
+        "brand": "micromax",
+        "price_range": "50000-80000",
+        "products": [
+          {
+            "product_name": "Micromax HD",
+            "price": 55000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuvogGUxvt5o23qDl3DhE0jsASlm809NzB9A&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax FHD",
+            "price": 66000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Mnb4Deh0TlUYo5UwfsrEuCshnSMYdHd4-A&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax Ultra",
+            "price": 79000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfd6MZA-yltVitVCBvWve4H76iFF-yjZFCZJK7UWLqnnLhsyAZiWmCbnpNqdm4F5fMQ4&usqp=CAU"
+          }
+    
+        ]
+      },
+        
+         {
+        "brand": "micromax",
+        "price_range": "Above 80000",
+        "products": [
+          {
+            "product_name": "Micromax HD",
+            "price": 95000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNqZ73CZvCKcVOfFVIwHxm1Bq5U-14eozqEDDV9euB0PmHaTlxScAIFGJiQjRirjwuY5Y&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax FHD",
+            "price": 116000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPMiWkoEnqhSot18LJAS-k-VmMrdg6ROj2kQ&usqp=CAU"
+          },
+          {
+            "product_name": "Micromax Ultra",
+            "price": 119000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8gRHmIgbrJgorimnKb_eeE8Og4F1EOxi3Dg&usqp=CAU"
+          }
+    
+        ]
+      },
+      {
+        "brand": "sony",
+        "price_range": "0-25000",
+        "products": [
+          {
+            "product_name": "Sony A",
+            "price": 15000,
+            "specification":  ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3221S2qPXlwUBJkmAA9hQXNa-hs1wLZQq75In5ANNhOp-yB1uUhnBmJX3f5ua68OpXY8&usqp=CAU"
+          },
+          {
+            "product_name": "Sony B",
+            "price": 22000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIwh2zm0706r5w7u346KE-jmsi2M26LXcx-A&usqp=CAU"
+          },
+          {
+            "product_name": "Sony C",
+            "price": 24000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJNjZFZrwdo2VnnVWIdyGuKw-wnR3QDWAcA&usqp=CAU"
+          }
+    
+        ]
+      },
+           {
+        "brand": "sony",
+        "price_range": "25000-50000",
+        "products": [
+          {
+            "product_name": "Sony HD",
+            "price": 35000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnoEQDQWnZXd066jTb1egH3wwGrYjslr7JVA&usqp=CAU"
+          },
+          {
+            "product_name": "Sony FHD",
+            "price": 36000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrvG5Hm6QFPiEirt9WZ6lrqV127evikHnQjoFsw9uXC5xng1NDCdn02mhYu4e7ONTXMI&usqp=CAU"
+          },
+          {
+            "product_name": "Sony Ultra",
+            "price": 49000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB83YG9zZZk8U9SAvOe-4jfvb--cmG0emGWg&usqp=CAU"
+          }
+    
+        ]
+      },
+      {
+        "brand": "sony",
+        "price_range": "50000-80000",
+        "products": [
+          {
+            "product_name": "Sony HD",
+            "price": 45000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXIqSj5MUODworoEqubAOE5f9J7FPweO3QA&usqp=CAU"
+          },
+          {
+            "product_name": "Sony FHD",
+            "price": 56000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZBC_sqnywhmmsOaXDMpYdACGnAF70xAABQ&usqp=CAU"
+          },
+          {
+            "product_name": "Sony Ultra",
+            "price": 59000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQVkN3hr50WQo3eqxJ9YQ6SKKQeyYVcU3HkIxmyB-75L1YDUmKMmbFPI8UKHZo6_dn8k&usqp=CAU"
+          }
+    
+        ]
+      },
+        
+       {
+        "brand": "sony",
+        "price_range": "Above 80000",
+        "products": [
+          {
+            "product_name": "Sony HD",
+            "price": 95000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvsTxBcdzXvP9l6nZkKPkZGt_ptrHGgMl6rg4oSU5_QOUujFvO8Q0QvUNr0SdloWwqTU&usqp=CAU"
+          },
+          {
+            "product_name": "Sony FHD",
+            "price": 116000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk12ieAI5SIGdVpSGjJXVGChnx6ODouxUiMw&usqp=CAU"
+          },
+          {
+            "product_name": "Sony Ultra",
+            "price": 119000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0yxIsLlG32v8eUk3WvWVsCn0Nu3vYP8mJw&usqp=CAU"
+          }
+    
+        ]
+      },
+    {
+        "brand": "hitachi",
+        "price_range": "0000-25000",
+        "products": [
+          {
+            "product_name": "Hitachi HD",
+            "price": 15000,
+            "specification":  ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS43H6d5sOE1OymGirviFF8G_YSA3F8LafiT3VTo_0dBYfgzllPaEfMfz2fSlkB8hUMtMQ&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi FHD",
+            "price": 22000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFjnvTXlzzeyyuin9pX3OinxVYhYWSXA4rvg&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi Ultra",
+            "price": 24000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH-jDX7dokM5S6P-fOkDChApoAUbjqMKKN5w&usqp=CAU"
+          }
+    
+        ]
+      },
+        {
+        "brand": "hitachi",
+        "price_range": "25000-50000",
+        "products": [
+          {
+            "product_name": "Hitachi HD",
+            "price": 35000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXvxX9jVrwzE3fYG-Y-2syb8K7UAg-rBqoQ&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi FHD",
+            "price": 36000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpoGKUNRtDjbhHqlCxETp-gtplUlF1mLzq13JpvKtc6hQ_t1GxNUWA9ccW9aLQ2xKetlQ&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi Ultra",
+            "price": 49000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-K4XHUoMlvImI7BIoJTfIjeZeeLU7hlNEQ&usqp=CAU"
+          }
+    
+        ]
+      },
+    {
+        "brand": "hitachi",
+        "price_range": "50000-80000",
+        "products": [
+          {
+            "product_name": "Hitachi HD",
+            "price": 45000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJmmRRsl2d78SK4umu-5xEyhbSI3wqSumUtg&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi FHD",
+            "price": 56000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-PvXAnevuMD5yDUmHjW_yzpIrnfju1V5bQ&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi Ultra",
+            "price": 74000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxtTdqsxbHnHEDmAZjZ-KOgbfPl5GG60i_6g5QhE9QeRW4IPmkLM9T9BrAbBZOXOVgObQ&usqp=CAU"
+          }
+    
+        ]
+      },
+         
+    {
+        "brand": "hitachi",
+        "price_range": "Above 80000",
+        "products": [
+          {
+            "product_name": "Hitachi HD",
+            "price": 95000,
+            "specification": ["32 inches fine display"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm7kXdBaOf0AcLL1GrGicaHzSWqKZ5e-VGzg&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi FHD",
+            "price": 116000,
+            "specification": ["55-inch 4K LED", "Smart TV", "HDR"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaPF-UDHNsiy81GJK-T1OPFZXFe1N1WSYZg&usqp=CAU"
+          },
+          {
+            "product_name": "Hitachi Ultra",
+            "price": 119000,
+            "specification": ["65-inch 4K LED", "Smart TV", "Dolby Atmos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55keAo2QMx1T2Hcp_RYF_T6UGN82-5jSwjw&usqp=CAU"
+          }
+    
+        ]
+      }
+]

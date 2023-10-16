@@ -1,0 +1,45 @@
+/* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Header section */
+    .feedback-header {
+      padding: 20px 10px;
+    }
+  
+    /* User details section */
+    .user-details-section {
+      padding: 20px 10px;
+    }
+  
+    /* Input containers */
+    .input-group {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* Individual input fields */
+    .input-field {
+      margin-bottom: 10px;
+      text-align: left; /* Align text to the left */
+    }
+    
+    /* Label styles */
+    .input-group label {
+      text-align: left; /* Align label text to the left */
+    }
+  
+    /* Categories section */
+    .categories-section {
+      padding: 20px 10px;
+    }
+  
+    /* Next button */
+    .next-button {
+      margin: 10px auto;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 10px 0;
+    }
+  }
+  

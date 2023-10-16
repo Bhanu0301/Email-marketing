@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/phone.css" media="screen and (max-width: 768px)">
+
+  <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script> -->
+
+  <title>Reliance Digital Feedback</title>
+</head>
+<body>
+  <div class="header-section">
+    <header class="feedback-header">
+      <img src="imgs/reliance_logo.png" alt="Reliance Digital Logo" class="logo">
+      <div class="header-content">
+        <h1>Welcome to Reliance Digital Feedback</h1>
+        <div class="feedback-intro">
+          <p>Your feedback is valuable to us! It helps us enhance our products and services to provide you with a better user experience.</p>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- USER-DETAILS SECTION -->
+
+<div class="user-details-section">
+  <h2>Personal Details</h2>
+  <form id="userDetailsForm" action="/submit" method="POST">
+    <div class="input-group">
+      <div class="input-field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="input-field">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required pattern="\d{10}">
+        <div class="error-message" id="phone-error">Enter a valid 10-digit phone number.</div>
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-field">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+      <div class="input-field">
+        <label for="demographicArea">Demographic Area:</label>
+        <input type="text" id="demographicArea" name="demographicArea" placeholder="Enter your demographic area" required autocomplete="off">
+      </div>
+    </div>
+
+
+    <div class="input-group">
+      <div class="input-field">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+      <div class="input-field">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+      </div>
+      <div class="input-field">
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" placeholder="Enter your pincode" required pattern="\d{6}">
+        <div class="error-message" id="pincode-error">Enter a valid 6-digit pincode.</div>
+      </div>
+      </div>
+    </div>
+    <!-- ... (other input fields) ... -->
+    <!-- ... (previous code) ... -->
+    <!-- ... (previous code) ... -->
+    <!-- ... (previous code) ... -->
+    <div class="categories-section">
+    <h2>Select a Category</h2>
+    <div class="category-checkboxes">
+      <label class="category-item" data-category="camera">
+        <input type="checkbox" name="selectedCategories" value="camera" class="category-checkbox">
+        <div class="category-box" style="background-image: url('imgs/camera.jpeg');"></div>
+        <span class="category-name">Cameras</span>
+      </label>
+      <label class="category-item" data-category="mobile">
+        <input type="checkbox" name="selectedCategories" value="mobile" class="category-checkbox">
+        <div class="category-box" style="background-image: url('imgs/mobile.jpeg');"></div>
+        <span class="category-name">Mobiles</span>
+      </label>
+      <label class="category-item" data-category="laptop">
+        <input type="checkbox" name="selectedCategories" value="laptop" class="category-checkbox">
+        <div class="category-box" style="background-image: url('imgs/laptop.jpeg');"></div>
+        <span class="category-name">Laptops</span>
+      </label>
+      <label class="category-item" data-category="tv">
+        <input type="checkbox" name="selectedCategories" value="tv" class="category-checkbox">
+        <div class="category-box" style="background-image: url('imgs/TV.webp');"></div>
+        <span class="category-name">TVs</span>
+      </label>
+        <label class="category-item" data-category="sound">
+          <input type="checkbox" name="selectedCategories" value="sound" class="category-checkbox">
+          <div class="category-box" style="background-image: url('imgs/sound.jpeg');"></div>
+          <span class="category-name">Sound Systems</span>
+        </label>
+      <!-- Add more category items as needed -->
+    </div>
+    </div>
+
+    <div class="category-options">
+    <div class="options-content" id="mobile-options">
+      <h3>Mobile Options</h3>
+      <h4>Brands</h4>
+      <label>
+        <input type="checkbox" name="brands" value="realme"> Realme
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="redmi"> Redmi
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="apple"> Apple
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="samsung"> Samsung
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="oppo"> Oppo
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="vivo"> Vivo
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="infinix"> Infinix
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="asus"> Asus
+      </label>
+      <h4>Price Range</h4>
+      <label>
+        <input type="checkbox" name="priceRanges" value="0-5000"> 0 - 5000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="5000-10000"> 5000 - 10000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="10000-20000"> 10000 - 20000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="20000-50000"> 20000 - 50000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="50000-999999"> Above 50000
+      </label>
+    </div>
+    <div class="options-content" id="tv-options">
+      <h3>TV Options</h3>
+      <h4>Brands</h4>
+      <label>
+        <input type="checkbox" name="brands" value="samsung"> Samsung
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="sony"> Sony
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="micromax"> Micromax
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="hitachi"> Hitachi
+      </label>
+
+      <h3>Price Range</h3>
+      <label>
+        <input type="checkbox" name="priceRanges" value="0-25000"> 0 - 25000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="25000-50000"> 25000 - 50000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="50000-80000"> 50000 - 80000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="80000-999999"> Above 80000
+      </label>
+    </div>
+    <div class="options-content" id="laptop-options">
+      <h3>Laptop options</h3>
+      <h4>Brands</h4>
+      <label>
+        <input type="checkbox" name="brands" value="asus"> Asus
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="hp"> HP
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="dell"> Dell
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="lenovo"> Lenovo
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="apple"> Apple
+      </label>
+      <label>
+        <input type="checkbox" name="brands" value="acer"> Acer
+      </label>
+      <h4>Price Range</h4>
+      <label>
+        <input type="checkbox" name="priceRanges" value="5000-25000"> 5000 - 25000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="25000-40000"> 25000 - 40000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="40000-60000"> 40000 - 60000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="60000-90000"> 60000 - 90000
+      </label>
+      <label>
+        <input type="checkbox" name="priceRanges" value="90000-999999"> Above 90000
+      </label>
+    </div>
+    <div class="options-content" id="camera-options">
+      <h3>Camera Options</h3>
+      <div class="category-options-inner">
+        <h4>Brands</h4>
+        <label>
+          <input type="checkbox" name="cameraBrands" value="canon"> Canon
+        </label>
+        <label>
+          <input type="checkbox" name="cameraBrands" value="kodak"> Kodak
+        </label>
+        <label>
+          <input type="checkbox" name="cameraBrands" value="sony"> Sony
+        </label>
+        <!-- Add more brand options for cameras -->
+        
+        <h4>Price Range</h4>
+        <label>
+          <input type="checkbox" name="cameraPriceRanges" value="10000-25000"> 10000 - 25000
+        </label>
+        <label>
+          <input type="checkbox" name="cameraPriceRanges" value="25000-50000"> 25000 - 50000
+        </label>
+        <label>
+          <input type="checkbox" name="cameraPriceRanges" value="50000-999999"> Above 50000
+        </label>
+        <!-- Add more price range options for cameras -->
+      </div>
+    </div>
+
+    <div class="options-content" id="sound-options">
+      <h3>Sound Systems Options</h3>
+      <div class="category-options-inner">
+        <h4>Brands</h4>
+        <label>
+          <input type="checkbox" name="soundBrands" value="philips"> Philips
+        </label>
+        <label>
+          <input type="checkbox" name="soundBrands" value="sony"> Sony
+        </label>
+        <label>
+          <input type="checkbox" name="soundBrands" value="marshal"> Marshal
+        </label>
+        <!-- Add more brand options for sound systems -->
+        
+        <h4>Price Range</h4>
+        <label>
+          <input type="checkbox" name="soundPriceRanges" value="20000-50000"> 20000 - 50000
+        </label>
+        <label>
+          <input type="checkbox" name="soundPriceRanges" value="50000-999999"> Above 50000
+        </label>
+        <!-- Add more price range options for sound systems -->
+      </div>
+    <!-- Add more options sections for other categories -->
+    </div>
+
+    <!-- ... (rest of the code) ... -->
+    <!-- ... (rest of the code) ... -->
+
+    <button type="submit" >Next</button>
+  </form>
+</div>
+
+
+
+<footer class="footer">
+  <p>Customer experience and trust is our first priority</p>
+  <p>&copy; 2023 Reliance digital. All rights reserved.</p>
+</footer>
+
+<!-- ... (rest of the code) ... -->
+ 
+  <script src="script.js"></script>
+  <script src="../src/back.js"></script>
+</body>
+</html>
+
+
