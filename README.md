@@ -1,26 +1,57 @@
-# Email-marketing
 
-We have created a platform to enable email marketing specifically to a particular company(say reliance-digital)   
-Through this we collect customer details through a feedback form and store in our database(mongoDB)      
-We send a mail to each customer as a part of our first campaing, where we have an unique link sent to each user, which when clicked ,heads him/her to a page with their wishlisted / intrested products choosen with customized specifications, brands and price ranges the selected through the feedback form. The user can explore his or her favourite products easily reducing the search time.   
-Further we can automate the mail through mailChimp for further campaings accordingly , say for instance sending the whooping offers available on their wishlisted products in upcoming festival sale.   
+# Email Marketing Platform for Reliance Digital
 
-Frontend : HTML,CSS,Javascript, EJS templating    
-Backend : NodeJS, expressJS    
-Database : MongoDB   
-Email Marketing platform : MailChimp    
+We have created a platform that enables targeted email marketing for a specific company, in this case, Reliance Digital. Our platform collects customer details through a feedback form and stores them in a MongoDB database. We then send personalized emails to each customer as part of our first campaign, providing them with a unique link that leads them to a page featuring their wishlisted and interested products, complete with customized specifications, brands, and price ranges selected through the feedback form. This approach allows users to easily explore their favorite products, reducing search time.
 
-Steps to run the project       
+Additionally, we have the capability to automate email campaigns using MailChimp. For instance, we can send out exclusive offers related to wishlisted products in upcoming festival sales.
 
-Making sure nodejs, expressjs , mongoDB is already install
-Install all the dependencies used and run mongod in the terminal
+## Technology Stack
 
-nodemon back.js  (in other terminal) -----> this will host to localhost:3000 (in your browser)   
-after filling the feedback form the data will be stored into the database and unique link_ID will be generated
-localhost:3000/user-products/{unique link_ID} --> This will head to the page which conatains the products wishlisted/selected out of intrest through the feedback form    
+- **Frontend**: HTML, CSS, JavaScript, EJS templating
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Email Marketing Platform**: MailChimp
 
-nodemon mailchimp2.js ------> This will export the new data from mongoDB database to a CSV file , this csv file is used to import the data into mailchimp where we can hold multiple campaings      
+## Getting Started
 
+Follow these steps to run the project:
+
+1. Make sure you have Node.js, Express.js, and MongoDB installed on your system.
+
+2. Install all the project dependencies.
+
+   ```bash
+   npm install
+   ```
+
+3. Start MongoDB by running `mongod` in your terminal.
+
+4. Run the backend server.
+
+   ```bash
+   nodemon back.js
+   ```
+
+   This will host the application at `http://localhost:3000`.
+
+5. After filling out the feedback form, the data will be stored in the database, and a unique link ID will be generated.
+
+6. To access the user's personalized product page, use the following URL format:
+
+   `http://localhost:3000/user-products/{unique_link_ID}`
+
+7. To export new data from the MongoDB database to a CSV file for use in MailChimp, run:
+
+   ```bash
+   nodemon mailchimp2.js
+   ```
+
+   This CSV file can be imported into MailChimp to support multiple campaigns.
+
+Feel free to explore and use this platform for your email marketing campaigns targeting Reliance Digital customers.
+```
+
+Remember to replace `{unique link_ID}` with the actual unique link ID generated for each user. This formatted README provides clear instructions for running the project and gives an overview of your email marketing platform.
 
 
 
