@@ -52,7 +52,7 @@ Feel free to explore and use this platform for your email marketing campaigns ta
 ```
 
 Remember to replace `{unique link_ID}` with the actual unique link ID generated for each user. This formatted README provides clear instructions for running the project and gives an overview of your email marketing platform.
-
+```
 
 
 
